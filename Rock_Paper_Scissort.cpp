@@ -43,7 +43,7 @@ int main()
                  << " Player choose " << convert_String(player) << endl;
             if (player < 0 && player > 3)
             {
-                cout << "You entered wrong! Please choose agian";
+                cout << "You entered wrong! Please choose again";
             }
         } while (player < 0 && player > 3);
 
